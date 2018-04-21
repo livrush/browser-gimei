@@ -1,31 +1,37 @@
 {
-  "name": "node-gimei",
+  "name": "browser-gimei",
   "version": "0.0.4",
-  "description": "random Japanese name and address generator. nodejs port of gimei",
+  "description": "random Japanese name and address generator. browser port of nodejs port of gimei",
   "main": "index.js",
   "scripts": {
     "test": "jasmine"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/demiglacesource/node-gimei.git"
+    "url": "git+https://github.com/livrush/browser-gimei.git"
   },
   "keywords": [
     "gimei",
-    "node-gimei",
+    "browser-gimei",
     "japanese",
     "name,",
     "address",
     "generator"
   ],
-  "author": "demiglacesource",
+  "author": "livrush",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/demiglacesource/node-gimei/issues"
+    "url": "https://github.com/livrush/browser-gimei/issues"
   },
-  "homepage": "https://github.com/demiglacesource/node-gimei#readme",
+  "homepage": "https://github.com/livrush/browser-gimei#readme",
   "dependencies": {
-    "js-yaml": "3.5.2"
+    "get-json": "^1.0.0",
+    "jquery": "^3.3.1",
+    "js-yaml": "3.5.2",
+    "jsdom": "^11.8.0",
+    "level-fs": "^0.11.2",
+    "simple-get-json": "^3.2.3",
+    "yaml-import": "^0.2.3"
   },
   "devDependencies": {
     "jasmine": "^2.4.1"
