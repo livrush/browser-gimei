@@ -1,0 +1,25 @@
+{
+  "name": "browser-gimei",
+  "description": "random Japanese name and address generator. browser port of nodejs port of gimei",
+  "main": "dist/gimei.min.js",
+  "authors": [
+    "livrush"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "gimei",
+    "browser-gimei",
+    "japanese",
+    "name",
+    "address",
+    "generator"
+  ],
+  "homepage": "https://github.com/livrush/browser-gimei",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
