@@ -1,6 +1,6 @@
 {
   "name": "browser-gimei",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "random Japanese name and address generator. browser port of nodejs port of gimei",
   "main": "dist/gimei.min.js",
   "scripts": {
