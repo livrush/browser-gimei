@@ -9,7 +9,23 @@ Refactor of [node-gimei](https://github.com/demiglacesource/node-gimei), which i
 Install
 ---------
 
-    $ npm install browser-gimei
+Using npm:
+
+```
+$ npm install browser-gimei
+```
+
+Using yarn:
+
+```
+$ yarn add browser-gimei
+```
+
+Using bower:
+
+```
+$ bower install browser-gimei
+```
 
 Usage
 --------------
