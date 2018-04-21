@@ -40,7 +40,7 @@ From Bower:
 <script src="/bower_components/browser-gimei/dist/gimei.min.js"></script>
 ```
 
-
+`gimei` Object loads into global scope from the above script.
 
 ## Usage
 
@@ -52,15 +52,15 @@ Returns fictitious name:
 
 ```js
 var name = gimei.name();
-console.log(name.kanji());             // "斎藤 陽菜"
-console.log(name.hiragana());          // "さいとう はるな"
-console.log(name.katakana());          // "サイトウ ハルナ"
-console.log(name.last().kanji());      // "斎藤"
-console.log(name.last().hiragana());   // "さいとう"
-console.log(name.last().katakana());   // "サイトウ"
-console.log(name.first().kanji());     // "陽菜"
-console.log(name.first().hiragana());  // "はるな"
-console.log(name.first().katakana());  // "ハルナ"
+console.log(name.kanji());                         // "斎藤 陽菜"
+console.log(name.hiragana());                      // "さいとう はるな"
+console.log(name.katakana());                      // "サイトウ ハルナ"
+console.log(name.last().kanji());                  // "斎藤"
+console.log(name.last().hiragana());               // "さいとう"
+console.log(name.last().katakana());               // "サイトウ"
+console.log(name.first().kanji());                 // "陽菜"
+console.log(name.first().hiragana());              // "はるな"
+console.log(name.first().katakana());              // "ハルナ"
 ```
 
 ### male()
@@ -69,9 +69,9 @@ Returns fictitious male name:
 
 ```js
     var male = gimei.male();
-    console.log(male.kanji());             // "小林 顕士"
-    console.log(male.isMale());            // true
-    console.log(male.isFemale());          // false
+    console.log(male.kanji());                     // "小林 顕士"
+    console.log(male.isMale());                    // true
+    console.log(male.isFemale());                  // false
 ```
 
 ### female()
@@ -80,9 +80,9 @@ Returns fictitious female name:
 
 ```js
     var female = gimei.female();
-    console.log(female.kanji());           // "根本 彩世"
-    console.log(female.isMale());          // false
-    console.log(female.isFemale());        // true
+    console.log(female.kanji());                   // "根本 彩世"
+    console.log(female.isMale());                  // false
+    console.log(female.isFemale());                // true
 ```
 
 ### address()
