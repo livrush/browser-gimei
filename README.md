@@ -1,13 +1,15 @@
-node-gimei
+browser-gimei
 =========================
 
-[gimei](https://github.com/willnet/gimei) のNode.js版です。架空の日本人名や住所文字列を作成します。  
-テストデータの作成などにどうぞ。
+Random Japanese name/address generator. Generates random data in either kanji, hiragana, or katakana. 
+
+Refactor of [node-gimei](https://github.com/demiglacesource/node-gimei), which is in turn a Node.js version of [gimei](https://github.com/willnet/gimei). Made to work in browsers.
+
 
 Install
 ---------
 
-    $ npm install node-gimei
+    $ npm install browser-gimei
 
 Usage
 --------------
