@@ -27,6 +27,24 @@ Using bower:
 $ bower install browser-gimei
 ```
 
+
+Load
+---------
+
+From npm:
+
+```js
+const gimei = require('browser-gimei');
+```
+
+From Bower:
+
+```html
+<script src="/bower_components/browser-gimei/dist/gimei.min.js"></script>
+```
+
+
+
 Usage
 --------------
 
@@ -34,43 +52,46 @@ Usage
 
 架空の人物名を返します。
 
-    var gimei = require('node-gimei');
-    var name = gimei.name();
-    console.log(name.kanji());             // "斎藤 陽菜"
-    console.log(name.hiragana());          // "さいとう はるな"
-    console.log(name.katakana());          // "サイトウ ハルナ"
-    console.log(name.last().kanji());      // "斎藤"
-    console.log(name.last().hiragana());   // "さいとう"
-    console.log(name.last().katakana());   // "サイトウ"
-    console.log(name.first().kanji());     // "陽菜"
-    console.log(name.first().hiragana());  // "はるな"
-    console.log(name.first().katakana());  // "ハルナ"
+```js
+var name = gimei.name();
+console.log(name.kanji());             // "斎藤 陽菜"
+console.log(name.hiragana());          // "さいとう はるな"
+console.log(name.katakana());          // "サイトウ ハルナ"
+console.log(name.last().kanji());      // "斎藤"
+console.log(name.last().hiragana());   // "さいとう"
+console.log(name.last().katakana());   // "サイトウ"
+console.log(name.first().kanji());     // "陽菜"
+console.log(name.first().hiragana());  // "はるな"
+console.log(name.first().katakana());  // "ハルナ"
+```
 
 ### male()
 
 架空の男性名を返します。
 
-    var gimei = require('node-gimei');
+```js
     var male = gimei.male();
     console.log(male.kanji());             // "小林 顕士"
     console.log(male.isMale());            // true
     console.log(male.isFemale());          // false
+```
 
 ### female()
 
 架空の女性名を返します。
 
-    var gimei = require('node-gimei');
-    var female = gimei.female(); 
+```js
+    var female = gimei.female();
     console.log(female.kanji());           // "根本 彩世"
     console.log(female.isMale());          // false
     console.log(female.isFemale());        // true
+```
 
 ### address()
 
 架空の住所を返します。
 
-    var gimei = require('node-gimei');
+```js
     var address = gimei.address();
     console.log(address.kanji());                  // 岡山県 大島郡大和村 稲木町
     console.log(address.hiragana());               // おかやまけん おおしまぐんやまとそん いなぎちょう
@@ -84,6 +105,7 @@ Usage
     console.log(address.town().kanji());           // 稲木町
     console.log(address.town().hiragana());        // いなぎちょう
     console.log(address.town().katakana());        // イナギチョウ
+```
 
 Links
 ------
