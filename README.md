@@ -1,13 +1,11 @@
-browser-gimei
-=========================
+# browser-gimei
 
 Random Japanese name/address generator. Generates random data in either kanji, hiragana, or katakana.
 
 Refactor of [node-gimei](https://github.com/demiglacesource/node-gimei), which is in turn a Node.js version of [gimei](https://github.com/willnet/gimei). Made to work in browsers.
 
 
-Install
----------
+## Install
 
 Using npm:
 
@@ -28,8 +26,7 @@ $ bower install browser-gimei
 ```
 
 
-Load
----------
+## Load
 
 From npm:
 
@@ -45,12 +42,13 @@ From Bower:
 
 
 
-Usage
---------------
+## Usage
+
+`gimei` is an Object that contains multiple methods which return various randomly-generated data.
 
 ### name()
 
-架空の人物名を返します。
+Returns fictitious name:
 
 ```js
 var name = gimei.name();
@@ -67,7 +65,7 @@ console.log(name.first().katakana());  // "ハルナ"
 
 ### male()
 
-架空の男性名を返します。
+Returns fictitious male name:
 
 ```js
     var male = gimei.male();
@@ -78,7 +76,7 @@ console.log(name.first().katakana());  // "ハルナ"
 
 ### female()
 
-架空の女性名を返します。
+Returns fictitious female name:
 
 ```js
     var female = gimei.female();
@@ -89,7 +87,7 @@ console.log(name.first().katakana());  // "ハルナ"
 
 ### address()
 
-架空の住所を返します。
+Returns fictitious address containing, or any one of, prefecture, city, and town:
 
 ```js
     var address = gimei.address();
@@ -107,8 +105,7 @@ console.log(name.first().katakana());  // "ハルナ"
     console.log(address.town().katakana());        // イナギチョウ
 ```
 
-Links
-------
+## Links
 
 * https://github.com/demiglacesource/node-gimei
 * https://github.com/willnet/gimei
